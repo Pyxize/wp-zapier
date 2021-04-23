@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15fc55babf0bc704112abb42d7b4e1c2",
+    "content-hash": "7f114e592c637cc61d71dd9fd202ad8c",
     "packages": [
         {
             "name": "composer/installers",
@@ -934,6 +934,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woocommerce/"
+        },
+        {
+            "name": "wpackagist-plugin/woozap",
+            "version": "2.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woozap/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woozap.zip?timestamp=1597424813"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woozap/"
         },
         {
             "name": "wpackagist-plugin/zapier",
