@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f114e592c637cc61d71dd9fd202ad8c",
+    "content-hash": "e0af75e63e3549452753818bf03814a4",
     "packages": [
         {
             "name": "composer/installers",
@@ -916,6 +916,24 @@
                 }
             ],
             "time": "2021-01-20T15:23:13+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/cf7-to-zapier",
+            "version": "2.2.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cf7-to-zapier/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cf7-to-zapier.zip?timestamp=1615387557"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cf7-to-zapier/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
