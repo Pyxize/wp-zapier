@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9be0411ae5fd829f0b59f4f9812f8b3b",
+    "content-hash": "dc5782303831a470ab33e72a0c4b83bd",
     "packages": [
         {
             "name": "composer/installers",
@@ -954,6 +954,24 @@
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
         },
         {
+            "name": "wpackagist-plugin/pmpro-zapier",
+            "version": "1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/pmpro-zapier/",
+                "reference": "tags/1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/pmpro-zapier.1.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/pmpro-zapier/"
+        },
+        {
             "name": "wpackagist-plugin/woocommerce",
             "version": "5.2.2",
             "source": {
@@ -970,42 +988,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woocommerce/"
-        },
-        {
-            "name": "wpackagist-plugin/woozap",
-            "version": "2.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/woozap/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woozap.zip?timestamp=1597424813"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/woozap/"
-        },
-        {
-            "name": "wpackagist-plugin/zapier",
-            "version": "1.0.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/zapier/",
-                "reference": "tags/1.0.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/zapier.1.0.2.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/zapier/"
         }
     ],
     "packages-dev": [
